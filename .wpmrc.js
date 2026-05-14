@@ -1,5 +1,6 @@
 module.exports = {
-    allowBranch: ['master', 'v0.*'],
+    allowBranch: ['master', 'v0.*', 'zxl/fix-bumpfile'],
+    releaseBranchFormat: 'zxl/release-v{{version}}',
     bumpFiles: [
         'package.json',
         {
@@ -16,7 +17,7 @@ module.exports = {
         }
     ],
     skip: {
-        branch: true
+        // branch: true
     },
     commitAll: true,
     hooks: {
