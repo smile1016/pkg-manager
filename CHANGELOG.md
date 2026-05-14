@@ -11,6 +11,21 @@ All notable changes to this project will be documented in this file. See [commit
 
 
 
+# 0.2.0-next.1 (2026-05-14)
+
+
+### Features
+
+* add pub-next-only ([f305f58](https://github.com/smile1016/pkg-manager/commit/f305f5827f749a1d76877aa70d1c0ae4995012f7))
+* support --force for wpm publish #NEXUS-1865 ([8cd3542](https://github.com/smile1016/pkg-manager/commit/8cd35421ec6865a43896eab5c34c7dccd7875f2a)), closes [#NEXUS-1865](https://github.com/smile1016/pkg-manager/issues/NEXUS-1865)
+* **wpm:** bump file support object ([22747dd](https://github.com/smile1016/pkg-manager/commit/22747dde49d202a4d75afdfa5d8762a8df75d3da))
+* **wpm:** bump file support object ([fd02836](https://github.com/smile1016/pkg-manager/commit/fd02836e5d6264449827cb6fb71589992b660e5c))
+
+
+### Reverts
+
+* Revert "build: release 0.2.0-next.3" ([4c65534](https://github.com/smile1016/pkg-manager/commit/4c65534d1b92138910122e168615673f95ac0b2e))
+
 ## [0.1.5](https://github.com/worktile/pkg-manager/compare/v0.1.4...v0.1.5) (2026-02-04)
 
 
