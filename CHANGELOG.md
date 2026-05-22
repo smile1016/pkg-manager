@@ -27,6 +27,14 @@ All notable changes to this project will be documented in this file. See [commit
 
 * **bump:** bumpFiles paths relative to package instead of .wpmrc ([bfbdb6a](https://github.com/worktile/pkg-manager/commit/bfbdb6afd52d1ec04f03cebfe37bad596dd23877))
 
+# [0.2.0-next.3](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.3) (2026-05-22)
+
+
+### Features
+
+* support --config ([fcece30](https://github.com/worktile/pkg-manager/commit/fcece3051e2e0c6e9f0044c8bb139284df45847e))
+* sync workspace versions in package-lock.json according to .wpmrc.ts bumpFiles #NEXUS-1963 ([#30](https://github.com/worktile/pkg-manager/issues/30)) ([72937f9](https://github.com/worktile/pkg-manager/commit/72937f950c79559bc1e72f5b819a5d54cb8917cf)), closes [#NEXUS-1963](https://github.com/worktile/pkg-manager/issues/NEXUS-1963)
+
 ## [0.1.5](https://github.com/worktile/pkg-manager/compare/v0.1.4...v0.1.5) (2026-02-04)
 
 

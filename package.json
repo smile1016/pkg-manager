@@ -1,6 +1,6 @@
 {
   "name": "@worktile/pkg-manager",
-  "version": "0.2.0-next.2",
+  "version": "0.2.0-next.3",
   "description": "",
   "main": "lib/index.js",
   "directories": {
