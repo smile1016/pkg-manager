@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+# [0.2.0-next.6](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.6) (2026-05-27)
+
+
+### Bug Fixes
+
+* add minimatch and chalk to package.json ([8a43c5a](https://github.com/worktile/pkg-manager/commit/8a43c5a71f5b94b0fba689223594db33eb03b23d))
+* only console changelog content for dryRun mode ([#35](https://github.com/worktile/pkg-manager/issues/35)) ([b2d993c](https://github.com/worktile/pkg-manager/commit/b2d993c0ed68298f61ab2d331eccba62608a3eed))
+
 # [0.2.0-next.5](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.5) (2026-05-27)
 
 
