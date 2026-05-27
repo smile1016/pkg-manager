@@ -122,9 +122,10 @@ export class ChangelogLifecycle extends Lifecycle {
             return `${header}${generated}\n${content.slice(header.length)}`;
         }
 
-        const idx = content.indexOf('\n## [');
-        if (idx !== -1) {
-            return content.slice(0, idx + 1) + generated + '\n' + content.slice(idx + 1);
+        const match = content.match(/\n#{1,2} \[/);
+
+        if (match?.index != null) {
+            return content.slice(0, match.index + 1) + generated + '\n' + content.slice(match.index + 1);
         }
 
         return header + generated + '\n' + content;
