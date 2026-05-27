@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+# [0.2.0-next.5](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.5) (2026-05-27)
+
+
+### Bug Fixes
+
+* **changlog:** fix the order error in the changelog #NEXUS-2223 ([6633562](https://github.com/worktile/pkg-manager/commit/6633562a1ede9a61419e8acb6b3433414900b62d)), closes [#NEXUS-2223](https://github.com/worktile/pkg-manager/issues/NEXUS-2223)
+
 # [0.2.0-next.4](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.4) (2026-05-22)
 
 
