@@ -11,7 +11,7 @@ import { ValidationError, CommandTerminationError } from '../errors';
 import { runLifecycleHook } from '../run-lifecycle-hook';
 import inquirer from 'inquirer';
 import chalk from 'chalk';
-import minimatch from 'minimatch';
+import { minimatch } from 'minimatch';
 import { logger } from '../logger';
 import { createSimpleGit, readPackageJson } from '../utils';
 import { coerceArray } from '../coercion/array';
