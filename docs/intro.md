@@ -12,15 +12,27 @@ order: 10
 ## 安装
 
 执行如下命令安装`pkg-manager`
-```bash
-$ npm i @worktile/pkg-manager --save
-// or
-$ yarn add @worktile/pkg-manager
+
+::: code-group
+
+```base [npm]
+npm i @worktile/pkg-manager --save-dev
 ```
+
+```base [yarn]
+yarn add @worktile/pkg-manager -D
+```
+
+```base [pnpm]
+$ pnpm add @worktile/pkg-manager -D
+```
+:::
+```bash
+
 
 安装后在 package.json 中添加如下脚本：
 
-```
+```json
 {
   scripts: {
     ...
@@ -36,7 +48,7 @@ $ yarn add @worktile/pkg-manager
 
 每个子命令都会有不同的参数设置，可以执行命令的时候传参 `wpm release --skip.bump`，也可以在 .wpmrc 文件中配置。
 
-```
+```js
 module.exports = {
     allowBranch: ['master', 'v0.*'],
     bumpFiles: [
@@ -60,7 +72,7 @@ module.exports = {
     },
     commitAll: true,
     hooks: {
-        prepublish: 'yarn workspaces run build',
+        prepublish: 'pnpm run -r build',
         postpublish: 'lerna publish from-git',
         postreleaseBranch: 'lerna version {{version}} && git add .'
     }

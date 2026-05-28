@@ -43,6 +43,8 @@ export type Hooks = {
      * Called after the tagging step.
      */
     posttag?: string;
+
+    [hookName: string]: string | undefined;
 };
 
 export type Package = { path: string; bumpFiles?: BumpFile[]; infile?: string };
@@ -154,7 +156,7 @@ export interface CommandContext {
         current: string;
         next?: string;
     };
-    git?: SimpleGit;
+    git: SimpleGit;
     // release branch name by releaseBranchFormat and version
     releaseBranch?: string;
     // release tag name
