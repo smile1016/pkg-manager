@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+# [0.2.0-next.7](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.7) (2026-05-28)
+
+
+### Features
+
+* bump typescript and docgeni to 6.0 and 2.8.0-next.6, use pnpm instead of npm ([#36](https://github.com/worktile/pkg-manager/issues/36)) ([6dd690e](https://github.com/worktile/pkg-manager/commit/6dd690e104ad708421c505bb0762dcd338c0f3a4))
+
 # [0.2.0-next.6](https://github.com/worktile/pkg-manager/compare/v0.1.5...v0.2.0-next.6) (2026-05-27)
 
 
